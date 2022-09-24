@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size:62.5%;
+}
+
+
+
+body{
+    overflow-x: hidden;
+    font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    background:linear-gradient( to top left, #6F38C5, #87A2FB);
+}
+
+.hetbegin{
+    padding: 5rem;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    gap: 2rem;
+    position: relative;
+}
+
+.hetbegin>.divv{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hetbegin>.divv>div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0rem 0rem 0rem 4rem;
+}
+
+.hetbegin > .divv > div > img{ 
+    width: 17rem;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.hetbegin>.divv>div>img:hover{
+    width: 34rem;
+    height: 27rem;
+    border-radius: 1.5rem;
+    transition-duration: 0.3s;
+}
+
+.hetbegin>.divv>div>p{
+    font-size: 130%;
+    text-shadow: 0.3rem 0.4rem 0.3rem rgba(0, 0, 0, 0.5);
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.hetbegin>.hetbegintext{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    position: relative;
+}
+
+.hetbegin>.hetbegintext>h1{
+    width: 100%;
+    font-family: 'Kaushan Script', cursive;
+    color: #eee;
+    
+}
+
+.hetbegin>.hetbegintext>div{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-0%, -50%);
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+}
+
+.hetbegin>.hetbegintext>div:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+    padding: 0;
+}
+
+.hetbegin>.hetbegintext>div>p{
+    align-items: center;
+    width: 70ch;
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mee{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 3rem;
+}
+
+.school{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.school>a>img{
+    width: 30rem;
+    height: 20rem;
+    object-fit: cover;
+    padding: 1rem;
+    border-radius: 20%;
+}
+
+.school>p{
+    width: 40ch;
+    text-align: center;
+    box-shadow: 0.3rem 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+}
+
+.school:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+}
+
+
+.woon{
+    display: flex;
+    width: 33.33%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.woon>a>img{
+    width: 30rem;
+    height: 20rem;
+    object-fit: cover;
+    padding: 1rem;
+    border-radius: 20%;
+}
+
+.woon>p{
+    width: 40ch;
+    text-align: center;
+    box-shadow: 0.3rem 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+}
+
+.woon:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+}
+
+.talent{
+    display: flex;
+    width: 33.33%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.talent>a>img{
+    width: 30rem;
+    height: 20rem;
+    object-fit: cover;
+    padding: 1rem;
+    border-radius: 20%;
+}
+
+.talent>p{
+    width: 45ch;
+    text-align: center;
+    box-shadow: 0.3rem 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+}
+
+.talent:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+}
+
+.contact{
+    padding-top: 8rem;
+    width: 100%;
+}
+.contact>ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 6rem 2rem;
+    gap: 10rem;
+}
+.contact>ul>.contacts{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
+    padding: 0.5rem;
+}
+
+.contact>ul>.contacts:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+
+.contact>ul>.contacts>img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.contact>ul>.contacts>a, a:visited, a:link{
+    cursor: pointer;
+    text-decoration: none;
+}
